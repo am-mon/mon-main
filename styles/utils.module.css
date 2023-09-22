@@ -100,30 +100,11 @@ ul.custom_list li:nth-of-type(n + 2) {
 }
 
 .amm_shape_bg {
-  background: url(/assets/images/amm_shape.png) no-repeat;
+  background: url(/assets/images/amm_shape.png),
+    url(/assets/images/amm_shape.png);
   background-size: 78% auto;
-  background-position: right bottom;
-  padding-bottom: 70px;
+  background-position: top 5% left, right bottom 5%;
+  background-repeat: no-repeat;
   @media only screen and (max-width: 700px) {
-    background: none !important;
-    padding-bottom: 0;
-  }
-}
-
-.home_head {
-  background: url(/assets/images/bg.png);
-  background-size: auto 100%;
-  background-position: top center;
-  padding-bottom: 50px;
-  background-repeat: repeat-x;
-}
-
-.get_in_touch {
-  background: url(/assets/images/get_in_touch.png) no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-  padding: 40px 0;
-  @media only screen and (max-width: 700px) {
-    padding: 0;
   }
 }
